@@ -1,0 +1,16 @@
+checker:
+
+  # Check if current version of CheckX is latest  
+  check_for_updates: true
+  
+  # Remove duplicate proxies
+  remove_duplicates: true
+  
+  # Check site
+  check_site: 'https://azenv.net'
+  
+  # Save dead proxies
+  save_dead: true
+
+  # Normal users should keep this false unless problem start happening
+  debugging: false
